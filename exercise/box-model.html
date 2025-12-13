@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Box Model</title>
+  <style>
+    .stretch {
+      display: block;
+      font-weight: bold;
+      background-color: green;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      transition: 0.6s;
+      margin-bottom: 50px;
+      cursor: pointer;
+    }.stretch:hover {
+      padding: 20px 40px;
+    }
+
+    .three-d-click {
+      display: block;
+      font-weight: bold;
+      background-color: green;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      margin-bottom: 50px;
+      box-shadow: 2.5px 3px 3px rgba(0, 0, 0, 0.2);
+      transition: box-shadow 0.1s, transform 0.16s;
+      cursor: pointer;
+    }.three-d-click:active {
+      box-shadow: none;
+      transform: translateY(3px) translateX(3px);
+    }
+
+    .one {
+      display: inline;
+      font-weight: bold;
+      background-color: green;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      margin-right: 40px;
+      margin-left: 40px;
+      transition: all 0.2s;
+      cursor: pointer;
+    }.one:hover {
+      padding-left: 25px;
+      padding-right: 25px;
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+    .two {
+      display: inline;
+      background-attachment: fixed;
+      font-weight: bold;
+      background-color: green;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      margin-right: 40px;
+      margin-left: 40px;
+      transition: all 0.2s;
+      cursor: pointer;
+    }.two:hover {
+      padding-left: 25px;
+      padding-right: 25px;
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+    .three {
+      display: inline;
+      background-attachment: fixed;
+      font-weight: bold;
+      background-color: green;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      margin-right: 40px;
+      margin-left: 40px;
+      transition: all 0.2s;
+      cursor: pointer;
+    }.three:hover {
+      padding-left: 25px;
+      padding-right: 25px;
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+
+    .back {
+      display: inline;
+      position: fixed;
+      bottom: 1%;
+      left: 45%;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 6px;
+      padding: 1px 3px 1px 3px;
+    }
+    .first {
+      display: inline;
+      position: fixed;
+      bottom: 1%;
+      left: 48%;
+      cursor: pointer;
+      font-size: 10px;
+    }
+    .second {
+      display: inline;
+      position: fixed;
+      bottom: 1%;
+      left: 49%;
+      cursor: pointer;
+      font-size: 10px;
+    }
+    .third {
+      display: inline;
+      position: fixed;
+      bottom: 1%;
+      left: 50%;
+      cursor: pointer;
+      font-size: 10px;
+    }
+    .fourth {
+      display: inline;
+      position: fixed;
+      bottom: 1%;
+      left: 51%;
+      cursor: pointer;
+      font-size: 10px;
+    }
+    .fifth {
+      display: inline;
+      position: fixed;
+      bottom: 1%;
+      left: 52%;
+      cursor: pointer;
+      font-size: 10px;
+    }
+    .next {
+      display: inline;
+      position: fixed;
+      bottom: 1%;
+      left: 53%;
+      cursor: pointer;
+      font-size: 6px;
+      padding: 1px 3px 1px 3px;
+      font-weight: bold;
+    }
+
+  </style>
+</head>
+<body>
+  <button class="stretch">
+    Stretch
+  </button>
+
+  <button class="three-d-click">
+    Shadow
+  </button>
+
+  <button class="one">
+    One
+  </button>
+
+  <button class="two">
+    Two
+  </button>
+
+  <button class="three">
+    Three
+  </button>
+
+  <button class="back">Back</button>
+  <a href="" class="first">1</a>
+  <a href="" class="second">2<a>
+  <a href="" class="third">3</a>
+  <a href="" class="fourth">4<a>
+  <a href="" class="fifth">5</a>
+  <button class="next">Next</button>
+</body>
+</html>
