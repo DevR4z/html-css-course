@@ -14,4 +14,3 @@ console.log(`\n✅ Tarefa concluída: ${concluida}`);
 console.log("Tarefas restantes:", tarefas);
 
 console.log(`\nTotal de tarefas ${tarefas.length}`);
-
